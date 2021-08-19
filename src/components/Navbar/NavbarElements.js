@@ -9,7 +9,6 @@ export const Nav = styled.nav`
   justify-content: center;
   font-weight: 700;
 `;
-
 export const NavLink = styled(Link)`
   color: #fff;
   font-size: 2rem;
@@ -41,3 +40,4 @@ export const Bars = styled(FaPizzaSlice)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;
+
