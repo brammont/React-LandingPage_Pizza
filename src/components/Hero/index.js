@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {
     HeroContainer,
     HeroContent,
@@ -8,21 +8,28 @@ import {
     HeroBtn
   } from './HeroElements';
 import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 
 const Hero = () => {
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggle = () => {
+      setIsOpen(!isOpen);
+    };
+  
     return (
-        <HeroContainer>
-            <Navbar/>
-            <HeroContent>
-                <HeroItems>
-                <HeroH1>La mejor Pizza del mundo mundial!</HeroH1>
-                <HeroP>Lista en 60 secondos</HeroP>
-                <HeroBtn>Pedir Orden</HeroBtn>
-            </HeroItems>
-            </HeroContent>
-        </HeroContainer>
-
+      <HeroContainer>
+        <Navbar toggle={toggle} />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <HeroContent>
+          <HeroItems>
+            <HeroH1>La mejor pizza del Mundo.</HeroH1>
+            <HeroP>Lista en 60 secondos</HeroP>
+            <HeroBtn>Ordenar</HeroBtn>
+          </HeroItems>
+        </HeroContent>
+      </HeroContainer>
     );
-};
-
-export default Hero
+  };
+  
+  export default Hero;
