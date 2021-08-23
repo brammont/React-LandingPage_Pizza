@@ -24,7 +24,7 @@ const Hero = () => {
         <HeroContent>
           <HeroItems>
             <HeroH1>La mejor pizza del Mundo.</HeroH1>
-            <HeroP>Lista en 60 secondos</HeroP>
+            <HeroP>Lista en 60 segundos</HeroP>
             <HeroBtn>Ordenar</HeroBtn>
           </HeroItems>
         </HeroContent>

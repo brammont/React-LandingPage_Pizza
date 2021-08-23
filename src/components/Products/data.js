@@ -20,7 +20,7 @@ export const productData = [
     alt: 'Pizza',
     name: 'Paraiso hawayana',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Salsa marinara, albahaca, salchicha italiana, tomates roma, aceitunas y pesto',
     price: '$16.999 COP',
     button: 'Agregar al Carro'
   },
@@ -29,7 +29,7 @@ export const productData = [
     alt: 'Pizza',
     name: 'Vegetariana',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Salsa marinara, albahaca, salchicha italiana, tomates roma, aceitunas y pesto',
     price: '$14.999 COP',
     button: 'Agregar al Carro'
   }
@@ -37,10 +37,10 @@ export const productData = [
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'Donas',
+    name: 'Delidona',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+      'Donas glaseadas de chocolate belga cubiertas de glaseado con chispitas en la parte superior',
     price: '$9.999 COP',
     button: 'Agregar al carro'
   },
@@ -49,7 +49,7 @@ export const productDataTwo = [
     alt: 'Helados',
     name: 'Caramel Wonder',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+      'Helado de vainilla cubierto con glaseado de caramelo y chocolate cubierto con una barra de coco',
     price: '$12.999 COP',
     button: 'Agregar al carro'
   },
@@ -58,7 +58,7 @@ export const productDataTwo = [
     alt: 'Brownie',
     name: 'Tornado de chocolate',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'Cuadritos de brownie de chocolate blanco cubiertos con trozos de chocolate blanco y nueces de macadamia',
     price: '$9.999 COP',
     button: 'Agregar al carro'
   }

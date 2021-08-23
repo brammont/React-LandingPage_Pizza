@@ -1,11 +1,15 @@
 import React from 'react'
+import { FeatureContainer, FeatureButton } from './FeatureElements';
+
 
 const Feature = () => {
     return (
-        <div>
-            <h1>Feature</h1>
-        </div>
-    )
-}
-
-export default Feature
+      <FeatureContainer>
+        <h1>Pizza del dia</h1>
+        <p>Salsa alfredo de trufa cubierta con polvo de oro de 24 quilates.</p>
+        <FeatureButton>Ordenar Ahora</FeatureButton>
+      </FeatureContainer>
+    );
+  };
+  
+  export default Feature;
